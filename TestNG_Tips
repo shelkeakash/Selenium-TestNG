@@ -1,0 +1,17 @@
+TestSuite ---> TestCase ---> Test Steps 
+Package -----> Class ---->Test Methods
+
+We do not use main method in testNG
+
+TestNG is a powerful testing framework that provides a wide range of annotations to help you write automated tests. 
+One of the key features of TestNG is its annotation hierarchy, which defines the order in which annotations are executed during test execution.
+
+1. @BeforeSuite: This annotation is executed before all tests in a test suite.
+2. @BeforeTest: This annotation is executed before all tests in a test tag.
+3. @BeforeClass: This annotation is executed before the first test method in a test class.
+4. @BeforeMethod: This annotation is executed before each test method in a class.
+5. @Test: This annotation marks a method as a test method.
+6. @AfterMethod: This annotation is executed after each test method in a class.
+7. @AfterClass: This annotation is executed after the last test method in a test class.
+8. @AfterTest: This annotation is executed after all tests in a test tag.
+9. @AfterSuite: This annotation is executed after all tests in a test suite.
